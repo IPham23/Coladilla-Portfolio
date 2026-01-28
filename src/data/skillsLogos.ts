@@ -1,0 +1,18 @@
+export const skillLogos = [
+  { name: "HTML", src: "https://cdn.simpleicons.org/html5" },
+  { name: "CSS", src: "https://static.cdnlogo.com/logos/c/31/css_800.png"},
+  { name: "JavaScript", src: "https://cdn.simpleicons.org/javascript" },
+  { name: "React", src: "https://cdn.simpleicons.org/react" },
+  { name: "Tailwind CSS", src: "https://cdn.simpleicons.org/tailwindcss" },
+  { name: "TypeScript", src: "https://cdn.simpleicons.org/typescript" },
+  { name: "WordPress", src: "https://cdn.simpleicons.org/wordpress" },
+  { name: "Elementor", src: "https://cdn.simpleicons.org/elementor" },
+  { name: "Wix", src: "https://cdn.simpleicons.org/wix" },
+  { name: "Java", src: "https://static.cdnlogo.com/logos/j/2/java.svg" },
+  { name: "PHP", src: "https://cdn.simpleicons.org/php" },
+  { name: "MySQL", src: "https://cdn.simpleicons.org/mysql" },
+  { name: "VS Code", src: "https://static.cdnlogo.com/logos/v/83/vs-code.svg" },
+  { name: "Git", src: "https://cdn.simpleicons.org/git" },
+  { name: "Figma", src: "https://cdn.simpleicons.org/figma" },
+  { name: "Adobe XD", src: "https://static.cdnlogo.com/logos/a/95/adobe-xd.svg" },
+]
