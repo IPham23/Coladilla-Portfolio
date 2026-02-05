@@ -45,7 +45,7 @@ export default function Home() {
             </div>
             <div className="flex max-lg:pt-5">
               <img
-                src="../src/assets/hero/hero-image.jpg"
+                src="/assets/hero/Hero-Image.jpg"
                 alt="Hero Image"
                 className="w-70 h-70 md:h-100 md:w-100 lg:h-125 lg:w-125 object-cover object-top rounded-full"
               />
@@ -256,7 +256,7 @@ export default function Home() {
                               grid sm:flex justify-center gap-6 mt-10">
 
                 <a
-                  href="mailto:your@email.com"
+                  href="mailto:iancoladilla23@gmail.com"
                   className="p-4 rounded-full bg-(--accent)
                             hover:bg-(--primary) transition-all duration-300
                             hover:-translate-y-1 shadow-md"
@@ -265,7 +265,7 @@ export default function Home() {
                 </a>
 
                 <a
-                  href="https://linkedin.com/in/yourprofile"
+                  href="https://www.linkedin.com/in/christian-coladilla-86494a264/"
                   target="_blank"
                   className="p-4 rounded-full bg-(--accent)
                             hover:bg-(--primary) transition-all duration-300
@@ -292,7 +292,7 @@ export default function Home() {
                             hover:-translate-y-1 shadow-md"
                 >
                   <img
-                    src="../src/assets/JobStreetLogo.png"
+                    src="/assets/JobStreetLogo.png"
                     alt="JobStreet"
                     className="h-6 w-6 brightness-0 invert"
                   />
