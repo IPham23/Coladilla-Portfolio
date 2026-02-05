@@ -39,8 +39,18 @@ export default function Home() {
                 projects and company platforms.
               </p>
               <div className="max-md:flex-col max-sm:pt-10 pt-5 flex gap-5">
-                <button>Download CV</button>
-                <button>Get In Touch</button>
+                <button>
+                  <a href="/assets/Coladilla_CV.pdf"
+                     download="Christian-Coladilla-Resume.pdf" 
+                  >
+                      Download CV
+                  </a>
+                </button>
+                <button>
+                  <a href="mailto:iancoladilla23@gmail.com">
+                     Get In Touch
+                  </a>
+                </button>
               </div>
             </div>
             <div className="flex max-lg:pt-5">
@@ -285,7 +295,7 @@ export default function Home() {
                 </a>
 
                 <a
-                  href="https://www.jobstreet.com.ph/"
+                  href="https://ph.jobstreet.com/profiles/christian-coladilla-8dn8prCkXd"
                   target="_blank"
                   className="p-4 rounded-full bg-(--accent)
                             hover:bg-(--primary) transition-all duration-300
