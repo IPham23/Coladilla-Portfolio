@@ -6,7 +6,7 @@ export default function Navbar() {
 
   const [active, setActive] = useState(sections[0]);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const { toggleTheme } = useTheme();
+  const { toggleTheme, isDark } = useTheme();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -79,9 +79,9 @@ export default function Navbar() {
           >
             <div className="text-[20px]">🌙</div>
             <div
-              id="toggle-circle"
-              className="w-9 h-9 bg-(--primary) rounded-full absolute shadow-[0_0_3px_black]
-                         left-[5%] transition-all duration-300 ease"
+                className={`w-9 h-9 bg-(--primary) rounded-full absolute shadow-[0_0_3px_black]
+                transition-all duration-300 ease
+                ${isDark ? "left-[55%]" : "left-[5%]"}`}
             />
             <div className="text-[20px]">☀️</div>
           </div>
@@ -107,9 +107,9 @@ export default function Navbar() {
           >
             <div className="text-[20px]">🌙</div>
             <div
-              id="toggle-circle"
-              className="w-9 h-9 bg-(--primary) rounded-full absolute shadow-[0_0_3px_black]
-                         left-[5%] transition-all duration-300 ease"
+                className={`w-9 h-9 bg-(--primary) rounded-full absolute shadow-[0_0_3px_black]
+                transition-all duration-300 ease
+                ${isDark ? "left-[55%]" : "left-[5%]"}`}
             />
             <div className="text-[20px]">☀️</div>
           </div>
