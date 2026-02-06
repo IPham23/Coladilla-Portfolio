@@ -53,7 +53,8 @@ export const ImageModal = ({ images, onClose }: any) => {
 
       {/* Zoom + Pan */}
       <div
-        className={`max-sm:max-w-[90vw] sm:max-lg:max-w-[70vw] max-lg:max-h-[75vh] lg:max-w-[90vw] lg:max-h-[85.7vh] overflow-auto rounded-xl custom-scrollbar ${
+        className={`max-sm:max-w-[90vw] sm:max-2xl:max-w-[70vw] max-2xl:max-h-[75vh] 2xl:max-w-[90vw] 2xl:max-h-[80vh] 
+                    overflow-auto rounded-xl custom-scrollbar ${
           scale > 1 ? "cursor-zoom-out" : "cursor-zoom-in"
         }`}
       >

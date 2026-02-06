@@ -46,11 +46,17 @@ export default function Home() {
                       Download CV
                   </a>
                 </button>
-                <button>
-                  <a href="mailto:iancoladilla23@gmail.com">
-                     Get In Touch
-                  </a>
-                </button>
+                
+                <a
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=iancoladilla23@gmail.com&su=Website%20Inquiry&body=Hi%20Christian,"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button>
+                    Get In Touch
+                  </button>
+                </a>
+                
               </div>
             </div>
             <div className="flex max-lg:pt-5">
@@ -266,13 +272,16 @@ export default function Home() {
                               grid sm:flex justify-center gap-6 mt-10">
 
                 <a
-                  href="mailto:iancoladilla23@gmail.com"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=iancoladilla23@gmail.com&su=Website%20Inquiry&body=Hi%20Christian,"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="p-4 rounded-full bg-(--accent)
                             hover:bg-(--primary) transition-all duration-300
                             hover:-translate-y-1 shadow-md"
                 >
                   <MdEmail className="h-6 w-6 text-white" />
                 </a>
+
 
                 <a
                   href="https://www.linkedin.com/in/christian-coladilla-86494a264/"
@@ -285,7 +294,7 @@ export default function Home() {
                 </a>
 
                 <a
-                  href="https://www.indeed.com/"
+                  href="https://profile.indeed.com/p/christianc-yy6ybq6"
                   target="_blank"
                   className="p-4 rounded-full bg-(--accent)
                             hover:bg-(--primary) transition-all duration-300
