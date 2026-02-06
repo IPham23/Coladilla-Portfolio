@@ -25,9 +25,9 @@ export default function Home() {
   return (
     <>
       <div>
-        <section id="Hero" className="max-lg:pb-10 min-h-screen flex items-center h-full pt-24 max-md:px-5">
-          <div className="max-lg:gap-10 flex-col-reverse flex lg:flex-row items-center justify-center h-full w-full gap-20">
-            <div className="flex max-w-[750px] flex-col ">
+        <section id="Hero" className="max-lg:pb-10 min-h-screen flex items-center h-full pt-24 max-md:px-5 xl:px-10">
+          <div className="max-xl:gap-10 flex-col-reverse flex lg:flex-row items-center justify-center h-full w-full gap-20">
+            <div className="flex max-w-[750px] lg:max-2xl:w-1/2 flex-col ">
               <h1 className="text-3xl sm:text-5xl font-bold">Christian Coladilla</h1>
               <h2 className="text-xl font-bold">
                 Web Developer | BSIT Graduate
@@ -57,12 +57,12 @@ export default function Home() {
               <img
                 src="/assets/hero/Hero-Image.jpg"
                 alt="Hero Image"
-                className="w-70 h-70 md:h-100 md:w-100 lg:h-125 lg:w-125 object-cover object-top rounded-full"
+                className="w-70 h-70 md:h-100 md:w-100 xl:h-125 xl:w-125 object-cover object-top rounded-full"
               />
             </div>
           </div>
         </section>
-        <section id="About" className="max-md:px-5 max-md:pt-30 flex flex-col justify-center min-h-[50vh] pt-40 backdrop-brightness-95">
+        <section id="About" className="max-md:px-5 max-2xl:pt-30 flex flex-col justify-center min-h-[50vh] pt-40 backdrop-brightness-95">
           <div className="flex flex-col justify-center">
             <div className="pb-10">
               <h2 className="text-4xl font-bold text-center pb-2">About Me</h2>
@@ -70,7 +70,7 @@ export default function Home() {
                 My background, tools, and technical strengths as a web developer
               </p>
             </div>
-            <div className="flex flex-col self-center md:max-w-[70%] lg:max-w-[50%] gap-5">
+            <div className="flex flex-col self-center md:max-w-[70%] 2xl:max-w-[50%] gap-5">
               <p className="text-xl text-center">
                 I am a Bachelor of Science in Information Technology (BSIT)
                 graduate from the Technological University of the Philippines –
@@ -131,7 +131,7 @@ export default function Home() {
           </div>
 
           {/*SKILLS GRID*/}
-          <div className="flex flex-col py-20">
+          <div className="flex flex-col py-20 lg:px-5 xl:px-10">
             <h3 className="max-sm:text-2xl max-sm:font-medium max-sm:mb-10
                            text-3xl font-bold text-center mb-15">
               What I Bring to the Table
@@ -201,8 +201,8 @@ export default function Home() {
         </section>
 
         {/*PROJECTS*/}
-        <section id="Projects" className="max-md:px-5 max-md:py-30 py-40">
-          <div className="max-w-[1400px] mx-auto lg:px-6">
+        <section id="Projects" className="max-md:px-5 max-2xl:py-30 py-40">
+          <div className="max-w-[1400px] mx-auto lg:px-5 xl:px-10">
 
             {/* Section Header */}
             <div className="mb-14 text-center">
@@ -223,8 +223,8 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section id="Experience" className="max-md:px-5 max-md:py-30 py-40 max-w-full mx-auto backdrop-brightness-95">
-          <div className="mx-auto md:px-6 max-w-[1400px]">
+        <section id="Experience" className="max-md:px-5 max-2xl:py-30 py-40 max-w-full mx-auto backdrop-brightness-95">
+          <div className="mx-auto md:px-5 xl:px-10 max-w-[1400px]">
             <h2 className="max-sm:text-3xl text-4xl font-bold text-center pb-10">Career Overview</h2>
               <h2 className="text-3xl font-medium pb-5 underline underline-offset-5">Work Experience</h2>
               <div>

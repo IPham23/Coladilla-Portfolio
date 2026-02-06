@@ -10,7 +10,7 @@ export default function App(){
     <>
       <ThemeProvider>
         <div className='flex flex-col'>
-          <div className='p-5 fixed w-full top-0 z-100 bg-(--accent) max-lg:h-20 lg:h-24 flex flex-col justify-center'>
+          <div className='p-5 xl:px-10 fixed w-full top-0 z-100 bg-(--accent) max-lg:h-20 lg:h-24 flex flex-col justify-center'>
             <Navbar />
           </div>
           <main className=' bg-[---bg] text-(--text) flex-1'>
