@@ -68,24 +68,35 @@ export default function ProjectCard({ project }: { project: Project }) {
 
         {/* Actions */}
         <div className="mt-auto pt-4">
-          {project.liveUrl && (
+          {project.liveUrl ? (
             <a
               href={project.liveUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="
                 inline-flex items-center gap-2
-                px-4 py-2
-                rounded-lg
+                px-4 py-2 rounded-lg
                 text-sm font-medium
-                bg-(--primary) text-(--bg)! 
-                hover:bg-(--accent) hover:text-(--text)! 
+                bg-(--primary) text-(--bg)!
+                hover:bg-(--accent) hover:text-(--text)!
                 transition
               "
             >
               Preview Site
               <ExternalLink size={16} />
             </a>
+          ) : (
+            <span
+              className="
+                inline-flex items-center gap-2
+                px-4 py-2 rounded-lg
+                text-sm font-medium
+                bg-neutral-500/20 text-neutral-400
+                cursor-not-allowed
+              "
+            >
+              Client Site Offline
+            </span>
           )}
         </div>
       </div>

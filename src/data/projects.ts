@@ -20,7 +20,7 @@ export const projects = [
       "/assets/projects/DEVSHO-SCREENSHOTS/Developers-Hideout-Contact.png",
     ],
     tech: ["WordPress", "Elementor", "JavaScript", "CSS", "Adobe XD"],
-    liveUrl: "https://developershideout.com",
+
   },
   {
     title: "Herzy",
@@ -95,7 +95,7 @@ export const projects = [
       "/assets/projects/FNB-POC-SCREENSHOTS/FNB-CONTACT.png",
     ],
     tech: ["WordPress", "Elementor", "JavaScript", "CSS", "Adobe XD"],
-    liveUrl: "https://pocfnbsite.developershideout.com",
+
   },
   {
     title: "POC – Travel Website",
@@ -107,6 +107,6 @@ export const projects = [
       "/assets/projects/TRAVEL-POC-SCREENSHOTS/TRAVEL-CONTACT.png",
     ],
     tech: ["WordPress", "Elementor", "JavaScript", "CSS", "Adobe XD"],
-    liveUrl: "https://poctravelsite.developershideout.com",
+
   },
 ];
