@@ -58,7 +58,7 @@ export const projects = [
   },
   {
     title: "Hodarizk",
-    description: "Modern responsive website built using a full React and TypeScript stack.",
+    description: "Responsive runway and fashion model website originally built with WordPress (Elementor Pro), later migrated to a fully coded React and TypeScript stack, enabling component-based layouts, optimized loading, and refined visual interactions.",
     image: "/assets/projects/HODA-SCREENSHOTS/HODA-RIZK-Thumbnail.png",
     images: [
       "/assets/projects/HODA-SCREENSHOTS/HODA-RIZK.png",
