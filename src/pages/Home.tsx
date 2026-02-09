@@ -48,6 +48,7 @@ export default function Home() {
                 </button>
                 
                 <a
+                  className="flex max-md:flex-col"
                   href="https://mail.google.com/mail/?view=cm&fs=1&to=iancoladilla23@gmail.com&su=Website%20Inquiry&body=Hi%20Christian,"
                   target="_blank"
                   rel="noopener noreferrer"
