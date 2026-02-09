@@ -8,7 +8,7 @@ type Project = {
   image: string
   images: string[]
   tech: string[]
-  liveUrl: string
+  liveUrl?: string
 }
 
 export default function ProjectCard({ project }: { project: Project }) {

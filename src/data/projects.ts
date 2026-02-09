@@ -95,7 +95,7 @@ export const projects = [
       "/assets/projects/FNB-POC-SCREENSHOTS/FNB-CONTACT.png",
     ],
     tech: ["WordPress", "Elementor", "JavaScript", "CSS", "Adobe XD"],
-
+  
   },
   {
     title: "POC – Travel Website",
