@@ -20,6 +20,7 @@ export const projects = [
       "/assets/projects/DEVSHO-SCREENSHOTS/Developers-Hideout-Contact.png",
     ],
     tech: ["WordPress", "Elementor", "JavaScript", "CSS", "Adobe XD"],
+    liveUrl: "https://developershideout.com",
 
   },
   {
@@ -36,7 +37,7 @@ export const projects = [
       "/assets/projects/HERZY-SCREENSHOTS/HERZY-Single-Product.png",
     ],
     tech: ["WordPress", "Elementor", "JavaScript", "CSS", "Adobe XD"],
-    liveUrl: "https://inigopascual.com/home/",
+    
   },
   {
     title: "Manila Runway Republic",
