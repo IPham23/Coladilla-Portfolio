@@ -96,6 +96,7 @@ export const projects = [
       "/assets/projects/FNB-POC-SCREENSHOTS/FNB-CONTACT.png",
     ],
     tech: ["WordPress", "Elementor", "JavaScript", "CSS", "Adobe XD"],
+    liveUrl: "https://pocfnbsite.developershideout.com/",
   
   },
   {
@@ -108,6 +109,7 @@ export const projects = [
       "/assets/projects/TRAVEL-POC-SCREENSHOTS/TRAVEL-CONTACT.png",
     ],
     tech: ["WordPress", "Elementor", "JavaScript", "CSS", "Adobe XD"],
+    liveUrl: "https://poctravelsite.developershideout.com/",
 
   },
 ];
