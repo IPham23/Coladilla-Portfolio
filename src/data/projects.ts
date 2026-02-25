@@ -112,4 +112,18 @@ export const projects = [
     liveUrl: "https://poctravelsite.developershideout.com/",
 
   },
+  {
+    title: "Headless CMS Blog",
+    description: "A demo project built to showcase my headless WordPress setup using React and TypeScript.",
+    image: "/assets/projects/HEADLESS-CMS-SCREENSHOTS/Headless-CMS-Blog-Thumbnail.png",
+    images: [
+      "/assets/projects/HEADLESS-CMS-SCREENSHOTS/Headless-CMS-Blog-1.png",
+      "/assets/projects/HEADLESS-CMS-SCREENSHOTS/Headless-CMS-Blog-2.png",
+      "/assets/projects/HEADLESS-CMS-SCREENSHOTS/Headless-CMS-Blog-3.png",
+      "/assets/projects/HEADLESS-CMS-SCREENSHOTS/Headless-CMS-Blog-4.png",
+    ],
+    tech: ["WordPress", "WordPress REST API", "React", "TypeScript", "Tailwind CSS"],
+    liveUrl: "https://headless-cms-blog.vercel.app/",
+
+  },
 ];
