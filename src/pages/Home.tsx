@@ -1,7 +1,7 @@
 import { skills } from "../data/skills";
 import { skillLogos } from "../data/skillsLogos";
-import ProjectCard from "../components/ProjectCard"
-import { projects } from "../data/projects"
+import ProjectCard from "../components/ProjectCard";
+import { projects } from "../data/projects";
 import ExperienceSection from "../components/ExperienceSection";
 import EducationSection from "../components/EducationSection";
 
@@ -10,25 +10,29 @@ import { FaLinkedin } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { SiIndeed } from "react-icons/si";
 
-
-
 export default function Home() {
-
-  {/* Category Labels */}
-    const categoryLabels: Record<string, string> = {
-      frontend: "Frontend Development",
-      cms: "CMS & Page Builders",
-      backend: "Backend Development",
-      tools: "Tools & Workflow",
-    }
+  {
+    /* Category Labels */
+  }
+  const categoryLabels: Record<string, string> = {
+    frontend: "Frontend Development",
+    cms: "CMS & Page Builders",
+    backend: "Backend Development",
+    tools: "Tools & Workflow",
+  };
 
   return (
     <>
       <div>
-        <section id="Hero" className="max-lg:pb-10 min-h-screen flex items-center h-full pt-24 max-md:px-5 xl:px-10">
+        <section
+          id="Hero"
+          className="max-lg:pb-10 min-h-screen flex items-center h-full pt-24 max-md:px-5 xl:px-10"
+        >
           <div className="max-xl:gap-10 flex-col-reverse flex lg:flex-row items-center justify-center h-full w-full gap-20">
             <div className="flex max-w-[750px] lg:max-2xl:w-1/2 flex-col ">
-              <h1 className="text-3xl sm:text-5xl font-bold">Christian Coladilla</h1>
+              <h1 className="text-3xl sm:text-5xl font-bold">
+                Christian Coladilla
+              </h1>
               <h2 className="text-xl font-bold">
                 Web Developer | BSIT Graduate
               </h2>
@@ -40,24 +44,22 @@ export default function Home() {
               </p>
               <div className="max-md:flex-col max-sm:pt-10 pt-5 flex gap-5">
                 <button>
-                  <a href="/assets/Coladilla_CV.pdf"
-                     download="Christian-Coladilla-Resume.pdf" 
+                  <a
+                    href="/assets/Coladilla_CV.pdf"
+                    download="Christian-Coladilla-Resume.pdf"
                   >
-                      Download CV
+                    Download CV
                   </a>
                 </button>
-                
+
                 <a
                   className="flex max-md:flex-col"
                   href="https://mail.google.com/mail/?view=cm&fs=1&to=iancoladilla23@gmail.com&su=Website%20Inquiry&body=Hi%20Christian,"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button>
-                    Get In Touch
-                  </button>
+                  <button>Get In Touch</button>
                 </a>
-                
               </div>
             </div>
             <div className="flex max-lg:pt-5">
@@ -69,7 +71,10 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section id="About" className="max-md:px-5 max-2xl:pt-30 flex flex-col justify-center min-h-[50vh] pt-40 backdrop-brightness-95">
+        <section
+          id="About"
+          className="max-md:px-5 max-2xl:pt-30 flex flex-col justify-center min-h-[50vh] pt-40 backdrop-brightness-95"
+        >
           <div className="flex flex-col justify-center">
             <div className="pb-10">
               <h2 className="text-4xl font-bold text-center pb-2">About Me</h2>
@@ -87,13 +92,12 @@ export default function Home() {
               </p>
               <p className="text-xl text-center">
                 I currently work as a Web Developer, building responsive,
-                user-centered websites using modern frameworks and CMS platforms.
-                I enjoy translating UI designs into clean, maintainable, and
-                scalable code.
+                user-centered websites using modern frameworks and CMS
+                platforms. I enjoy translating UI designs into clean,
+                maintainable, and scalable code.
               </p>
             </div>
           </div>
-
 
           {/*SKILLS CAROUSEL*/}
           <div className="max-sm:py-0 max-sm:mt-20 overflow-hidden w-full py-20 mt-20">
@@ -138,9 +142,11 @@ export default function Home() {
           </div>
 
           {/*SKILLS GRID*/}
-          <div className="flex flex-col py-20 lg:px-5 xl:px-10">
-            <h3 className="max-sm:text-2xl max-sm:font-medium max-sm:mb-10
-                           text-3xl font-bold text-center mb-15">
+          <div className="flex flex-col py-20 px-5 xl:px-10">
+            <h3
+              className="max-sm:text-2xl max-sm:font-medium max-sm:mb-10
+                           text-3xl font-bold text-center mb-15"
+            >
               What I Bring to the Table
             </h3>
 
@@ -181,36 +187,44 @@ export default function Home() {
               ))}
             </div>
           </div>
-          
+
           {/*What I can do for your team*/}
           <div className="lg:px-50 lg:py-20">
             <h3 className="max-sm:text-2xl text-3xl font-bold text-center mb-4">
-               What I Can Do for Your Team
+              What I Can Do for Your Team
             </h3>
             <ul className="list-disc pl-6 text-lg space-y-2">
-                <li>Build responsive, mobile-first websites</li>
-                <li>Convert Figma & Adobe XD designs into React applications</li>
-                <li>Develop, customize, and maintain WordPress company websites</li>
-                <li>Implement modern frontend frameworks (React, TypeScript) and backend services (PHP, Java, MySQL)</li>
-                <li>Optimize websites for performance, accessibility, and SEO best practices</li>
+              <li>Build responsive, mobile-first websites</li>
+              <li>Convert Figma & Adobe XD designs into React applications</li>
+              <li>
+                Develop, customize, and maintain WordPress company websites
+              </li>
+              <li>
+                Implement modern frontend frameworks (React, TypeScript) and
+                backend services (PHP, Java, MySQL)
+              </li>
+              <li>
+                Optimize websites for performance, accessibility, and SEO best
+                practices
+              </li>
             </ul>
           </div>
 
           {/*CTA */}
           <div className="max-md:mt-20 text-center my-10 space-y-10">
             <p className="max-sm:text-base text-lg opacity-80">
-                I’m ready to contribute to your team’s frontend and full-stack projects. 
-                Let’s build something impactful together.
+              I’m ready to contribute to your team’s frontend and full-stack
+              projects. Let’s build something impactful together.
             </p>
-            <button><a href="#Contact">Contact Me</a></button>
+            <button>
+              <a href="#Contact">Contact Me</a>
+            </button>
           </div>
-
         </section>
 
         {/*PROJECTS*/}
         <section id="Projects" className="max-md:px-5 max-2xl:py-30 py-40">
           <div className="max-w-[1400px] mx-auto lg:px-5 xl:px-10">
-
             {/* Section Header */}
             <div className="mb-14 text-center">
               <h2 className="max-sm:text-3xl text-4xl font-bold text-center pb-2 text-(--text)">
@@ -230,37 +244,49 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section id="Experience" className="max-md:px-5 max-2xl:py-30 py-40 max-w-full mx-auto backdrop-brightness-95">
+        <section
+          id="Experience"
+          className="max-md:px-5 max-2xl:py-30 py-40 max-w-full mx-auto backdrop-brightness-95"
+        >
           <div className="mx-auto md:px-5 xl:px-10 max-w-[1400px]">
-            <h2 className="max-sm:text-3xl text-4xl font-bold text-center pb-10">Career Overview</h2>
-              <h2 className="text-3xl font-medium pb-5 underline underline-offset-5">Work Experience</h2>
-              <div>
-                <ExperienceSection />
-              </div>
+            <h2 className="max-sm:text-3xl text-4xl font-bold text-center pb-10">
+              Career Overview
+            </h2>
+            <h2 className="text-3xl font-medium pb-5 underline underline-offset-5">
+              Work Experience
+            </h2>
+            <div>
+              <ExperienceSection />
+            </div>
 
-              <h2 className="text-3xl pt-10 font-medium pb-5 underline underline-offset-5">Education</h2>
-              <div>
-                <EducationSection />
-              </div>
+            <h2 className="text-3xl pt-10 font-medium pb-5 underline underline-offset-5">
+              Education
+            </h2>
+            <div>
+              <EducationSection />
+            </div>
           </div>
         </section>
         <section id="Contact" className="max-md:px-5 max-md:py-30 py-40">
           <div className="max-sm:max-w-full max-sm:px-0 mx-auto max-w-6xl md:px-6">
-
             {/* divider */}
             <div className="flex justify-center mb-10">
               <span className="w-30 h-0.75 rounded-full bg-(--primary) opacity-70" />
             </div>
 
             {/* card */}
-            <div className="max-sm:px-5 rounded-3xl bg-(--card-bg) p-14 text-center
-                            shadow-[0_20px_60px_rgba(0,0,0,0.15)]">
-
-              <p className="max-sm:text-3xl text-4xl font-bold pb-4">Let’s Get in Touch</p>
+            <div
+              className="max-sm:px-5 rounded-3xl bg-(--card-bg) p-14 text-center
+                            shadow-[0_20px_60px_rgba(0,0,0,0.15)]"
+            >
+              <p className="max-sm:text-3xl text-4xl font-bold pb-4">
+                Let’s Get in Touch
+              </p>
 
               <p className=" opacity-80 max-w-3xl mx-auto tracking-wide">
                 For professional inquiries, opportunities, or collaborations,
-                feel free to reach out via email or connect through any platform below.
+                feel free to reach out via email or connect through any platform
+                below.
               </p>
 
               {/* CTA line */}
@@ -269,9 +295,10 @@ export default function Home() {
               </p>
 
               {/* icons */}
-              <div className="max-sm:flex-col max-sm:grid-cols-2 max-sm:justify-items-center 
-                              grid sm:flex justify-center gap-6 mt-10">
-
+              <div
+                className="max-sm:flex-col max-sm:grid-cols-2 max-sm:justify-items-center 
+                              grid sm:flex justify-center gap-6 mt-10"
+              >
                 <a
                   href="https://mail.google.com/mail/?view=cm&fs=1&to=iancoladilla23@gmail.com&su=Website%20Inquiry&body=Hi%20Christian,"
                   target="_blank"
@@ -282,7 +309,6 @@ export default function Home() {
                 >
                   <MdEmail className="h-6 w-6 text-white" />
                 </a>
-
 
                 <a
                   href="https://www.linkedin.com/in/christian-coladilla-86494a264/"
@@ -317,15 +343,11 @@ export default function Home() {
                     className="h-6 w-6 brightness-0 invert"
                   />
                 </a>
-
               </div>
             </div>
           </div>
         </section>
-
-
       </div>
     </>
   );
 }
-

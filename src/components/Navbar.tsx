@@ -64,7 +64,16 @@ export default function Navbar() {
                 ${active === id ? "active" : ""}
               `}
             >
-              <a href={`#${id}`}>{id === "Hero" ? "HOME" : id.toUpperCase()}</a>
+              <a href={`#${id}`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+                  window.history.replaceState(null, "", window.location.pathname);
+                }}
+              >
+                {id === "Hero" ? "HOME" : id.toUpperCase()}
+              </a>
+              
             </h3>
           ))}
         </div>
@@ -159,7 +168,12 @@ export default function Navbar() {
               <a
                 key={id}
                 href={`#${id}`}
-                onClick={closeMenu}
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+                  window.history.replaceState(null, "", window.location.pathname);
+                  {closeMenu();}
+                }}
                 className={`px-6 py-4 text-2xl font-extrabold nav-item transition-all duration-200
                   ${
                     active === id
