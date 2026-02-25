@@ -9,6 +9,7 @@ import EducationSection from "../components/EducationSection";
 import { FaLinkedin } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { SiIndeed } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
 
 export default function Home() {
   {
@@ -42,25 +43,40 @@ export default function Home() {
                 and WordPress. Experienced in delivering real-world client
                 projects and company platforms.
               </p>
-              <div className="max-md:flex-col max-sm:pt-10 pt-5 flex gap-5">
-                <button>
-                  <a
-                    href="/assets/Coladilla_CV.pdf"
-                    download="Christian-Coladilla-Resume.pdf"
-                  >
-                    Download CV
-                  </a>
-                </button>
+              
+              <div className="flex flex-col sm:flex-row pt-5 gap-5 max-sm:pt-10">
 
                 <a
-                  className="flex max-md:flex-col"
+                  href="/assets/Coladilla_CV.pdf"
+                  download="Christian-Coladilla-Resume.pdf"
+                >
+                  <button className="max-sm:w-full px-6 h-12 rounded-lg bg-black text-white flex items-center justify-center">
+                    Download CV
+                  </button>
+                </a>
+
+                <a
                   href="https://mail.google.com/mail/?view=cm&fs=1&to=iancoladilla23@gmail.com&su=Website%20Inquiry&body=Hi%20Christian,"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button>Get In Touch</button>
+                  <button className="max-sm:w-full px-6 h-12 rounded-lg bg-black text-white flex items-center justify-center">
+                    Get In Touch
+                  </button>
                 </a>
+
+                <a
+                  href="https://github.com/IPham23/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="max-sm:w-full h-12 rounded-lg bg-black text-white flex items-center justify-center">
+                    <FaGithub size={30} />
+                  </button>
+                </a>
+
               </div>
+
             </div>
             <div className="flex max-lg:pt-5">
               <img
