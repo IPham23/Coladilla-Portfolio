@@ -50,7 +50,7 @@ export default function Home() {
                   href="/assets/Coladilla_CV.pdf"
                   download="Christian-Coladilla-Resume.pdf"
                 >
-                  <button className="max-sm:w-full px-6 h-12 rounded-lg bg-black text-white flex items-center justify-center">
+                  <button className="max-sm:w-full px-6 h-12 rounded-lg text-(--text) flex items-center justify-center">
                     Download CV
                   </button>
                 </a>
@@ -60,7 +60,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="max-sm:w-full px-6 h-12 rounded-lg bg-black text-white flex items-center justify-center">
+                  <button className="max-sm:w-full px-6 h-12 rounded-lg text-(--text) flex items-center justify-center">
                     Get In Touch
                   </button>
                 </a>
@@ -70,7 +70,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="max-sm:w-full h-12 rounded-lg bg-black text-white flex items-center justify-center">
+                  <button className="max-sm:w-full h-12 rounded-lg text-(--text) flex items-center justify-center">
                     <FaGithub size={30} />
                   </button>
                 </a>
