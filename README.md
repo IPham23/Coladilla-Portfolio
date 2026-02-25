@@ -22,5 +22,5 @@ Features:
 - Project showcase with external links
 
 How to run locally:
-npm install
-npm run dev
+1. npm install
+2. npm run dev
