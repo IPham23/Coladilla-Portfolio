@@ -1,4 +1,21 @@
 export const projects = [
+    {
+    title: "North & Co",
+    description: "Developed the official North & Co website on Squarespace, optimizing for responsiveness, brand consistency, site speed, and SEO.",
+    image: "/assets/projects/NORTH-SCREENSHOTS/NORTH-Thumbnail.png",
+    images: [
+      "/assets/projects/NORTH-SCREENSHOTS/NORTH-Thumbnail.png",
+      "/assets/projects/NORTH-SCREENSHOTS/NORTH-HOME.png",
+      "/assets/projects/NORTH-SCREENSHOTS/NORTH-ABOUT.png",
+      "/assets/projects/NORTH-SCREENSHOTS/NORTH-SERVICES.png",
+      "/assets/projects/NORTH-SCREENSHOTS/NORTH-PORTFOLIO.png",
+      "/assets/projects/NORTH-SCREENSHOTS/NORTH-PROCESS.png",
+      "/assets/projects/NORTH-SCREENSHOTS/NORTH-CONTACT.png",
+    ],
+    tech: ["WordPress", "Squarespace", "JavaScript", "CSS", "Adobe XD"],
+    liveUrl: "vanilla-bluebird-zc32.squarespace.com",
+
+  },
   {
     title: "Developers Hideout – Company Website",
     description: "Built the official company website from design to deployment, focusing on responsiveness, branding, and performance.",
