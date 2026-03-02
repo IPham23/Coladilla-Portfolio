@@ -13,8 +13,7 @@ export const projects = [
       "/assets/projects/NORTH-SCREENSHOTS/NORTH-CONTACT.png",
     ],
     tech: ["WordPress", "Squarespace", "JavaScript", "CSS", "Adobe XD"],
-    liveUrl: "vanilla-bluebird-zc32.squarespace.com",
-
+    liveUrl: "https://vanilla-bluebird-zc32.squarespace.com",
   },
   {
     title: "Developers Hideout – Company Website",
