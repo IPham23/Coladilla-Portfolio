@@ -11,14 +11,16 @@ export const experience = [
       position:"Web Developer",
       company:"Developers Hideout PH Web Programming Services",
       duration:"June 2024 - Present",
-      description:["Develop and maintain production-level websites for company clients and internal platforms",
-        "Designed and built the official Developers Hideout company website, from concept and UI to deployment",
-        "Extended WordPress and Elementor functionality using custom JavaScript and CSS",
-        "Converted legacy WordPress sites into modern React applications using TypeScript and Tailwind CSS",
-        "Created Proof-of-Concept (POC) websites to showcase layouts, features, and technical feasibility for prospective clients",
-        "Ensured fully responsive and cross-device compatibility across desktop, tablet, and mobile"
+      description:["Architect and deliver end-to-end production websites for diverse clients using React, TypeScript, Tailwind CSS, Laravel, and REST APIs, ensuring scalable and maintainable codebases",
+        "Designed and launched the official Developers Hideout company website from initial concept through to live deployment, serving as both lead developer and primary designer",
+        "Migrated multiple client WordPress sites to modern React + TypeScript + Tailwind CSS stack, significantly improving load times, SEO performance, and long-term maintainability",
+        "Developed and customized WordPress websites using Elementor Pro, delivering tailored page layouts and advanced design components for client brands",
+        "Integrated REST APIs to connect frontend applications with backend services, enabling dynamic content rendering and streamlined data workflows",
+        "Built and maintained headless WordPress architectures, decoupling the CMS from the frontend for improved performance and developer flexibility",
+        "Constructed responsive, cross-browser-compatible layouts optimized for all screen sizes, consistently meeting client design specifications",
+        "Produced polished proof-of-concept websites for client pitches, directly supporting the company’s business development and sales process",
         ],
-      techUsed:["React", "TypeScript", "Tailwind CSS", "WordPress", "Elementor", "JavaScript", "CSS", "HTML", "Visual Studio Code", "Git", "Adobe XD"]
+      techUsed:["React", "TypeScript", "Rest API", "Tailwind CSS", "WordPress", "Elementor", "JavaScript", "CSS", "HTML", "Visual Studio Code", "Git", "PHP", "MySQL", "Adobe XD", "Figma"]
     },
     {
       position:"IT Intern",

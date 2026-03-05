@@ -18,6 +18,7 @@ export default function Experience() {
                                 <li key={i}>{item}</li>
                             ))}
                         </ul>
+                        <h3 className="mt-4 font-bold">Techologies Used: <span className="font-normal italic text-[14px]">{experience.techUsed.join(", ")}</span></h3>
                     </div>
                 ))}
             </div>
