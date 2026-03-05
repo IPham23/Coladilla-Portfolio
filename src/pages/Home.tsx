@@ -47,7 +47,7 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row pt-5 gap-5 max-sm:pt-10">
 
                 <a
-                  href="/assets/Coladilla_CV.pdf"
+                  href="/assets/Christian_Coladilla_CV.pdf"
                   download="Christian-Coladilla-Resume.pdf"
                 >
                   <button className="max-sm:w-full px-6 h-12 rounded-lg text-(--text) flex items-center justify-center">
