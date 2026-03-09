@@ -49,7 +49,7 @@ export default function ProjectCard({ project }: { project: Project }) {
             {project.title}
           </h3>
 
-          <p className="text-sm text-(--card-text) opacity-70 leading-relaxed mt-2">
+          <p style={{ whiteSpace: "pre-line" }} className="text-sm text-(--card-text) opacity-70 leading-relaxed mt-2">
             {project.description}
           </p>
 

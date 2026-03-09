@@ -1,20 +1,4 @@
 export const projects = [
-    {
-    title: "North & Co",
-    description: "Developed the official North & Co website on Squarespace, optimizing for responsiveness, brand consistency, site speed, and SEO.",
-    image: "/assets/projects/NORTH-SCREENSHOTS/NORTH-Thumbnail.png",
-    images: [
-      "/assets/projects/NORTH-SCREENSHOTS/NORTH-Thumbnail.png",
-      "/assets/projects/NORTH-SCREENSHOTS/NORTH-HOME.png",
-      "/assets/projects/NORTH-SCREENSHOTS/NORTH-ABOUT.png",
-      "/assets/projects/NORTH-SCREENSHOTS/NORTH-SERVICES.png",
-      "/assets/projects/NORTH-SCREENSHOTS/NORTH-PORTFOLIO.png",
-      "/assets/projects/NORTH-SCREENSHOTS/NORTH-PROCESS.png",
-      "/assets/projects/NORTH-SCREENSHOTS/NORTH-CONTACT.png",
-    ],
-    tech: ["WordPress", "Squarespace", "JavaScript", "CSS", "Adobe XD"],
-    liveUrl: "https://vanilla-bluebird-zc32.squarespace.com",
-  },
   {
     title: "Developers Hideout – Company Website",
     description: "Built the official company website from design to deployment, focusing on responsiveness, branding, and performance.",
@@ -40,20 +24,18 @@ export const projects = [
 
   },
   {
-    title: "Herzy",
-    description: "Product-focused website for a Filipino artist’s body and hair care brand.",
-    image: "/assets/projects/HERZY-SCREENSHOTS/HERZY-Thumbnail.png",
+    title: "Headless CMS Blog",
+    description: "A demo project built to showcase my headless WordPress setup using React and TypeScript.",
+    image: "/assets/projects/HEADLESS-CMS-SCREENSHOTS/Headless-CMS-Blog-Thumbnail.png",
     images: [
-      "/assets/projects/HERZY-SCREENSHOTS/HERZY-Home.png",
-      "/assets/projects/HERZY-SCREENSHOTS/HERZY-All-Products.png",
-      "/assets/projects/HERZY-SCREENSHOTS/HERZY-Hair-Care.png",
-      "/assets/projects/HERZY-SCREENSHOTS/HERZY-Body-Care.png",
-      "/assets/projects/HERZY-SCREENSHOTS/HERZY-Lash-Brow-Care.png",
-      "/assets/projects/HERZY-SCREENSHOTS/HERZY-Styling-Essentials.png",
-      "/assets/projects/HERZY-SCREENSHOTS/HERZY-Single-Product.png",
+      "/assets/projects/HEADLESS-CMS-SCREENSHOTS/Headless-CMS-Blog-1.png",
+      "/assets/projects/HEADLESS-CMS-SCREENSHOTS/Headless-CMS-Blog-2.png",
+      "/assets/projects/HEADLESS-CMS-SCREENSHOTS/Headless-CMS-Blog-3.png",
+      "/assets/projects/HEADLESS-CMS-SCREENSHOTS/Headless-CMS-Blog-4.png",
     ],
-    tech: ["WordPress", "Elementor", "JavaScript", "CSS", "Adobe XD"],
-    
+    tech: ["WordPress", "WordPress REST API", "React", "TypeScript", "Tailwind CSS"],
+    liveUrl: "https://headless-cms-blog.vercel.app/",
+
   },
   {
     title: "Manila Runway Republic",
@@ -129,17 +111,35 @@ export const projects = [
 
   },
   {
-    title: "Headless CMS Blog",
-    description: "A demo project built to showcase my headless WordPress setup using React and TypeScript.",
-    image: "/assets/projects/HEADLESS-CMS-SCREENSHOTS/Headless-CMS-Blog-Thumbnail.png",
+    title: "North & Co",
+    description: "Developed the official North & Co website on Squarespace, optimizing for responsiveness, brand consistency, site speed, and SEO. \n\n Password-protected preview available upon request",
+    image: "/assets/projects/NORTH-SCREENSHOTS/NORTH-Thumbnail.png",
     images: [
-      "/assets/projects/HEADLESS-CMS-SCREENSHOTS/Headless-CMS-Blog-1.png",
-      "/assets/projects/HEADLESS-CMS-SCREENSHOTS/Headless-CMS-Blog-2.png",
-      "/assets/projects/HEADLESS-CMS-SCREENSHOTS/Headless-CMS-Blog-3.png",
-      "/assets/projects/HEADLESS-CMS-SCREENSHOTS/Headless-CMS-Blog-4.png",
+      "/assets/projects/NORTH-SCREENSHOTS/NORTH-Thumbnail.png",
+      "/assets/projects/NORTH-SCREENSHOTS/NORTH-HOME.png",
+      "/assets/projects/NORTH-SCREENSHOTS/NORTH-ABOUT.png",
+      "/assets/projects/NORTH-SCREENSHOTS/NORTH-SERVICES.png",
+      "/assets/projects/NORTH-SCREENSHOTS/NORTH-PORTFOLIO.png",
+      "/assets/projects/NORTH-SCREENSHOTS/NORTH-PROCESS.png",
+      "/assets/projects/NORTH-SCREENSHOTS/NORTH-CONTACT.png",
     ],
-    tech: ["WordPress", "WordPress REST API", "React", "TypeScript", "Tailwind CSS"],
-    liveUrl: "https://headless-cms-blog.vercel.app/",
-
+    tech: ["WordPress", "Squarespace", "JavaScript", "CSS", "Adobe XD"],
+    liveUrl: "https://vanilla-bluebird-zc32.squarespace.com",
+  },
+  {
+    title: "Herzy",
+    description: "Product-focused website for a Filipino artist’s body and hair care brand.",
+    image: "/assets/projects/HERZY-SCREENSHOTS/HERZY-Thumbnail.png",
+    images: [
+      "/assets/projects/HERZY-SCREENSHOTS/HERZY-Home.png",
+      "/assets/projects/HERZY-SCREENSHOTS/HERZY-All-Products.png",
+      "/assets/projects/HERZY-SCREENSHOTS/HERZY-Hair-Care.png",
+      "/assets/projects/HERZY-SCREENSHOTS/HERZY-Body-Care.png",
+      "/assets/projects/HERZY-SCREENSHOTS/HERZY-Lash-Brow-Care.png",
+      "/assets/projects/HERZY-SCREENSHOTS/HERZY-Styling-Essentials.png",
+      "/assets/projects/HERZY-SCREENSHOTS/HERZY-Single-Product.png",
+    ],
+    tech: ["WordPress", "Elementor", "JavaScript", "CSS", "Adobe XD"],
+    
   },
 ];
