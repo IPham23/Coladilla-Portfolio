@@ -81,7 +81,10 @@ export default function Home() {
             </div>
             <div className="flex max-lg:pt-5">
               <img
+                rel="preload"
                 src="/assets/hero/Hero-Image.webp"
+                loading="eager"
+                fetchPriority="high"
                 alt="Hero Image"
                 className="w-70 h-70 md:h-100 md:w-100 xl:h-125 xl:w-125 object-cover object-top rounded-full"
               />
