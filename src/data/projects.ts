@@ -16,7 +16,7 @@ export const projects = [
       "/assets/projects/DEVSHO-SCREENSHOTS/Developers-Hideout-10.png",
       "/assets/projects/DEVSHO-SCREENSHOTS/Developers-Hideout-Solutions.png",
       "/assets/projects/DEVSHO-SCREENSHOTS/Developers-Hideout-Programs.png",
-      "/assets/projects/DEVSHO-SCREENSHOTS/Developers-Hideout-Our-Edge.png",
+      "/assets/projects/DEVSHO-SCREENSHOTS/Developers-Hideout-Our-Edge.webp",
       "/assets/projects/DEVSHO-SCREENSHOTS/Developers-Hideout-Contact.png",
     ],
     tech: ["WordPress", "Elementor", "JavaScript", "CSS", "Adobe XD"],
