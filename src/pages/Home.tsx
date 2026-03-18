@@ -70,7 +70,8 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="max-sm:w-full h-12 rounded-lg text-(--text) flex items-center justify-center">
+                  <button aria-label="Open Github"
+                          className="max-sm:w-full h-12 rounded-lg text-(--text) flex items-center justify-center">
                     <FaGithub size={30} />
                   </button>
                 </a>
