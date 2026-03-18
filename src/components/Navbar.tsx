@@ -58,7 +58,7 @@ export default function Navbar() {
         {/* NAV LINKS */}
         <div className="flex flex-row gap-10 flex-2 justify-center">
           {sections.map((id) => (
-            <h3
+            <h2
               key={id}
               className={`nav-item flex justify-center items-center text-2xl font-extrabold
                 ${active === id ? "active" : ""}
@@ -74,7 +74,7 @@ export default function Navbar() {
                 {id === "Hero" ? "HOME" : id.toUpperCase()}
               </a>
               
-            </h3>
+            </h2>
           ))}
         </div>
 
