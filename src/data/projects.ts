@@ -26,7 +26,7 @@ export const projects = [
   {
     title: "Headless CMS Blog",
     description: "A demo project built to showcase my headless WordPress setup using React and TypeScript.",
-    image: "/assets/projects/HEADLESS-CMS-SCREENSHOTS/Headless-CMS-Blog-Thumbnail.png",
+    image: "/assets/projects/HEADLESS-CMS-SCREENSHOTS/Headless-CMS-Blog-Thumbnail.webp",
     images: [
       "/assets/projects/HEADLESS-CMS-SCREENSHOTS/Headless-CMS-Blog-1.png",
       "/assets/projects/HEADLESS-CMS-SCREENSHOTS/Headless-CMS-Blog-2.png",
@@ -40,7 +40,7 @@ export const projects = [
   {
     title: "Manila Runway Republic",
     description: "Fashion website initially built with WordPress and later migrated to a modern React-based stack for scalability and performance.",
-    image: "/assets/projects/MRR-SCREENSHOTS/MRR-Thumbnail.png",
+    image: "/assets/projects/MRR-SCREENSHOTS/MRR-Thumbnail.webp",
     images: [
       "/assets/projects/MRR-SCREENSHOTS/MRR-Home.png",
       "/assets/projects/MRR-SCREENSHOTS/MRR-Mainboard.png",
@@ -74,7 +74,7 @@ export const projects = [
   {
     title: "ACCA Concepts",
     description: "Corporate website designed and developed with a clean, professional layout and responsive structure.",
-    image: "/assets/projects/ACCA-SCREENSHOTS/ACCA-Thumbnail.png",
+    image: "/assets/projects/ACCA-SCREENSHOTS/ACCA-Thumbnail.webp",
     images: [
       "/assets/projects/ACCA-SCREENSHOTS/ACCA-Home.png",
       "/assets/projects/ACCA-SCREENSHOTS/ACCA-About.png",
