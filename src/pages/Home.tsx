@@ -323,6 +323,7 @@ export default function Home() {
                   className="p-4 rounded-full bg-(--accent)
                             hover:bg-(--primary) transition-all duration-300
                             hover:-translate-y-1 shadow-md"
+                  aria-label="Send email via Gmail"
                 >
                   <MdEmail className="h-6 w-6 text-white" />
                 </a>
@@ -333,6 +334,7 @@ export default function Home() {
                   className="p-4 rounded-full bg-(--accent)
                             hover:bg-(--primary) transition-all duration-300
                             hover:-translate-y-1 shadow-md"
+                  aria-label="Opem LinkedIn"
                 >
                   <FaLinkedin className="h-6 w-6 text-white" />
                 </a>
@@ -343,6 +345,7 @@ export default function Home() {
                   className="p-4 rounded-full bg-(--accent)
                             hover:bg-(--primary) transition-all duration-300
                             hover:-translate-y-1 shadow-md"
+                  aria-label="Open Indeed"
                 >
                   <SiIndeed className="h-6 w-6 text-white" />
                 </a>
@@ -353,6 +356,7 @@ export default function Home() {
                   className="p-4 rounded-full bg-(--accent)
                             hover:bg-(--primary) transition-all duration-300
                             hover:-translate-y-1 shadow-md"
+                  aria-label="Open Jobstreet"
                 >
                   <img
                     src="/assets/JobStreetLogo.png"
