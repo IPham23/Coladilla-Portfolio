@@ -234,7 +234,7 @@ export default function Home() {
               projects. Let’s build something impactful together.
             </p>
             <button>
-              <a href="#Contact">Contact Me</a>
+              <a href="#Contact" className="px-6 py-3">Contact Me</a>
             </button>
           </div>
         </section>
